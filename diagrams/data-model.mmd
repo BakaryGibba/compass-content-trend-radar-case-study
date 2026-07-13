@@ -1,0 +1,24 @@
+erDiagram
+  CLIENT_PROFILE ||--o{ STRATEGY_RUN : owns
+  STRATEGY_RUN ||--o{ SOURCE_RESULT : collects
+  STRATEGY_RUN ||--o{ KEYWORD_INTENT : produces
+  STRATEGY_RUN ||--o{ CONTENT_IDEA : recommends
+  CONTENT_IDEA ||--o{ PRODUCTION_BRIEF : generates
+  CONTENT_IDEA ||--o{ BOARD_ITEM : tracks
+  STRATEGY_RUN ||--o{ REPORT : summarizes
+  CLIENT_PROFILE {
+    string profile_id
+    string client_name
+    string industry
+    string target_country
+  }
+  STRATEGY_RUN {
+    string run_id
+    datetime generated_at
+    string status
+  }
+  CONTENT_IDEA {
+    string idea_id
+    string title
+    string approval_status
+  }

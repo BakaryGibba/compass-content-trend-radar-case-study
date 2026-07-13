@@ -1,0 +1,12 @@
+flowchart TB
+  User[Content Strategist] --> UI[React / TanStack Workspace]
+  UI --> API[FastAPI Backend]
+  API --> Profile[Client Profile Services]
+  API --> Strategy[Strategy Pipeline]
+  API --> Reports[Report Generator]
+  Strategy --> Google[Google Trends]
+  Strategy --> TikTok[TikTok Source Family]
+  Strategy --> SEO[SEO Research]
+  Strategy -. optional .-> AI[AI Provider]
+  Strategy --> Storage[(Local JSON / CSV / Markdown)]
+  API -. optional .-> Pusher[Pusher Notifications]

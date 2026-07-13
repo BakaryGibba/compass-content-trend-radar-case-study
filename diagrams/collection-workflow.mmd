@@ -1,0 +1,13 @@
+flowchart TD
+  Run[Run Strategy] --> Profile[Load Client Profile]
+  Profile --> Seeds[Seed Keywords]
+  Seeds --> Google[Google Trends]
+  Seeds --> TikTok[TikTok Sources]
+  Seeds --> SEO[SEO / Volume Signals]
+  Google --> Raw[Raw Artifacts]
+  TikTok --> Raw
+  SEO --> Raw
+  Raw --> Normalize[Normalize Records]
+  Normalize --> Status[Source Status]
+  Normalize --> Merge[Merge Signals]
+  Merge --> Pipeline[Strategy Pipeline]

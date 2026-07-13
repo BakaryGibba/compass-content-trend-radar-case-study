@@ -1,0 +1,13 @@
+stateDiagram-v2
+  [*] --> SourceRequested
+  SourceRequested --> Success
+  SourceRequested --> RateLimited
+  SourceRequested --> Unavailable
+  SourceRequested --> PartialResult
+  RateLimited --> RecordWarning
+  Unavailable --> RecordWarning
+  PartialResult --> RecordWarning
+  Success --> Normalize
+  RecordWarning --> ContinueWithAvailableSignals
+  ContinueWithAvailableSignals --> Normalize
+  Normalize --> [*]
