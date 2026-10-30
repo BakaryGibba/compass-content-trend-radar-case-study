@@ -2,7 +2,10 @@
 
 # My Contributions
 
-This section frames the project in a portfolio-friendly way. Adjust wording if you want to emphasize solo ownership, team collaboration, or academic supervision.
+> [!NOTE]
+> Built with the engineering team at Apping Technology Sdn. Bhd. during my AI Engineering internship (2026). This page describes my part of the work.
+
+The table below lists the parts of Compass I owned.
 
 ## Technical Ownership
 
@@ -23,7 +26,7 @@ This section frames the project in a portfolio-friendly way. Adjust wording if y
 - Kept confidential data and credentials out of portfolio artifacts.
 - Designed for future migration to database-backed jobs and multi-user governance.
 
-## Interview Talking Points
+## Topics I Can Discuss In Depth
 
 - How Compass balances AI generation with human approval.
 - Why local artifacts were chosen for early-stage speed.
