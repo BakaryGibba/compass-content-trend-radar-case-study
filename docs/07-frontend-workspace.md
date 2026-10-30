@@ -40,10 +40,8 @@ The product is designed to reduce cognitive load. Strategists should always unde
 - what the recommended next step is;
 - why an idea is worth producing.
 
-## Screenshot Placeholder
+## Screenshot
 
-**File:** `dashboard.png`
+![Compass command center with workflow cards, source status, and navigation](../screenshots/dashboard.png)
 
-Capture the full command center with demo client data, latest strategy timestamp, source status, cards, and navigation.
-
-**Why it matters:** It gives reviewers the fastest visual proof that Compass is a complete workspace rather than a collection of scripts.
+The command center shows demo client data, the latest strategy timestamp, source status, and navigation in one workspace.

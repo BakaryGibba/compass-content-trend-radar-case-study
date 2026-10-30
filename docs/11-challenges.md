@@ -20,10 +20,8 @@ AI-generated recommendations need boundaries. The system uses client profiles, r
 
 The product spans research, strategy, approvals, briefs, and reports. The frontend reduces complexity by organizing views around the user's next decision rather than exposing every backend operation at once.
 
-## Screenshot Placeholder
+## Screenshot
 
-**File:** `quality-explanation.png`
+![Quality explanation panel showing why an item was scored or recommended](../screenshots/quality-explanation.png)
 
-Capture an idea or keyword detail view showing why an item was scored or recommended.
-
-**Why it matters:** It demonstrates explainability, one of the most important trust levers in AI-assisted strategy tools.
+The explanation panel shows why an idea or keyword was scored or recommended, which keeps AI-assisted strategy reviewable.

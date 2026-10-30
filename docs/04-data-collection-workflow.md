@@ -32,11 +32,3 @@ flowchart TD
 ## Safety Posture
 
 Compass does not rely on login bypasses, CAPTCHA bypasses, stealth automation, or account-farming patterns. When a source is unavailable, the system records source status and continues with available evidence.
-
-## Screenshot Placeholder
-
-**File:** `source-status-warning.png`
-
-Capture the dashboard area where source status, TikTok warnings, or extraction warnings are visible.
-
-**Why it matters:** It shows that the system treats external-source reliability as a first-class UX concern rather than hiding failures.
