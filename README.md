@@ -9,6 +9,10 @@
 
 Compass was designed for marketing teams that need more than a trend list. It connects audience context, keyword intent, source reliability, content scoring, approvals, briefs, and reporting into one guided workflow.
 
+| Context | Team | Status | My part |
+| --- | --- | --- | --- |
+| AI Engineering Internship, Apping Technology Sdn. Bhd. (2026) | Engineering team | Used by real users | [My contributions →](docs/12-my-contributions.md) |
+
 ## Project Snapshot
 
 | Area | Summary |
@@ -143,6 +147,17 @@ See the full screenshot index in [screenshots/README.md](screenshots/README.md).
 - Built a frontend that feels like an operating workspace, not a raw API dashboard.
 - Preserved portfolio safety by documenting architecture and reasoning without exposing credentials, raw data, or proprietary source.
 
+## Limitations
+
+What this case study does not show, and what the system does not yet do:
+
+- Source code, client profiles and trend exports are private, so results are described qualitatively here.
+- Data is stored in local files; moving to PostgreSQL and object storage is planned.
+- Strategy runs are not queue-backed yet, so there is no built-in retry or cancellation.
+- There is no authentication or role-based access between clients and teams yet.
+- External sources such as TikTok are unstable. The system surfaces source warnings rather than guaranteeing full coverage.
+- Idea quality, approval rates and published-content performance are not tracked yet.
+
 ## Lessons Learned
 
 Compass reinforced that content AI systems need orchestration more than magic. The hardest work is not generating text; it is grounding recommendations in client context, surfacing confidence, making source failures visible, and helping humans approve the right next step.
@@ -150,3 +165,13 @@ Compass reinforced that content AI systems need orchestration more than magic. T
 ## Repository Safety
 
 This case study intentionally excludes `.env` files, API keys, local trend exports, scraped pages, logs, browser artifacts, private client data, and source-code dumps.
+
+---
+
+<div align="center">
+
+**Part of [Bakary Gibba's AI engineering portfolio](https://github.com/BakaryGibba/bakary-gibba-ai-engineering-portfolio)**
+
+[Portfolio website](https://bakary-gibba.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/bakary-gibba-6409bb248/) · [Google Scholar](https://scholar.google.com/citations?user=bp0G4sgAAAAJ&hl=en)
+
+</div>
